@@ -4,7 +4,7 @@ Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi
 
 🔭 I’m currently working on Project HTML AND CSS<br><br><br>🌱 I’m currently learning Javascript<br><br>💬 Ask me about START2IMPACT<br>
 
-https://github.com/luigibuono/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/issues/1#issue-1681321121
+https://github.com/luigibuono/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/issues/1#issuecomment-1520199577
 
 
 
