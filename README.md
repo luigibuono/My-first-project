@@ -2,7 +2,6 @@
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 🔭 I’m currently working on Project HTML AND CSS<br><br><br>🌱 I’m currently learning Javascript<br><br>💬 Ask me about START2IMPACT<br>
 
-![repository-open-graph-template](https://user-images.githubusercontent.com/128727133/234010740-cbd965c3-7e49-4e8f-9b1d-c464a4850447.png)
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/luigi.buono.9250) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/luigi.buono_/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/luigi-buono-334b73258/) 
