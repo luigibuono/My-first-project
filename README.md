@@ -2,6 +2,7 @@
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 🔭 I’m currently working on Project HTML AND CSS<br><br><br>🌱 I’m currently learning Javascript<br><br>💬 Ask me about START2IMPACT<br>
 
+![repository-open-graph-template](https://user-images.githubusercontent.com/128727133/234010740-cbd965c3-7e49-4e8f-9b1d-c464a4850447.png)
 
 
 
