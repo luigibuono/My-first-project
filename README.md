@@ -8,7 +8,7 @@ I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the
 
 > ![favicon start](https://user-images.githubusercontent.com/128727133/234612178-af727cd1-0aa8-4854-ae43-c97c90159cd7.png)
 
-<h1>                                 Access to my portfolio meansgithub</h1>                          
+<h1>                                 Access to my portfolio means github</h1>                          
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 <br>
 <h1> OR NETLIFY <h1>
