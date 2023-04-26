@@ -6,6 +6,8 @@ Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi
 
 > ![screen profile](https://user-images.githubusercontent.com/128727133/234016654-f6ca9fe8-9a2c-4948-b2e1-cbaf36b2bcc1.png)
 
+NETLIFY LINK:https://s2i-progetto-html-css.netlify.app
+
 
 
 ## 🌐 Socials:
