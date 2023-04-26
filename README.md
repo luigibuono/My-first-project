@@ -1,6 +1,6 @@
 # 💫 About Me:
 I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the master to become a full stack development programmer and this is my first project.
-                                 #GOOD VISION
+                                 # GOOD VISION <br><br><br>
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 <br>
 
