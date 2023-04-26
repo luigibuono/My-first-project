@@ -3,7 +3,7 @@
 
 <p>
 I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the master to become a full stack development programmer and this is my first project.<p/><br<<br><br>
-<P>🔭 I’m currently working on Project HTML AND CSS<br>🌱 I’m currently learning Javascript<br>💬 Ask me about START2IMPACT weight:40px;<br></p>
+🔭 I’m currently working on Project HTML AND CSS<br><br>🌱 I’m currently learning Javascript<br><br>💬 Ask me about START2IMPACT<br><br>
 
 > ![favicon start](https://user-images.githubusercontent.com/128727133/234612178-af727cd1-0aa8-4854-ae43-c97c90159cd7.png)
 
@@ -18,6 +18,7 @@ Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi
   
 
 
+<h1 align="center">PROJECT PREVIEW</h1>
 > ![screen profile](https://user-images.githubusercontent.com/128727133/234016654-f6ca9fe8-9a2c-4948-b2e1-cbaf36b2bcc1.png)
 
 
