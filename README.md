@@ -1,5 +1,5 @@
 > <h1 align="center">Hi 👋, I'm Luigi</h1><br><br><br><br>
-<h3> align="center"># 💫 About Me:</h3>
+<h1 align="center"># 💫 About Me:</h1>
 
 <p>
 I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the master to become a full stack development programmer and this is my first project.<p/><br<<br><br>
