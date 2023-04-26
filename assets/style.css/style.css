@@ -1359,11 +1359,17 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .separator { margin: 32px 0; }
 
-  .contacts-list { gap: 0px; }
+  .contacts-list { gap: 20px; }
 
   .contact-info {
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
+	  
+.social-list{
+	max-width: calc(100% - 64px);
+	width: calc(100% - 64px);}
+  
+	
   }
 
 
