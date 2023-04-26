@@ -1364,12 +1364,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contact-info {
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
-	  
-.social-list{
-	max-width: calc(100% - 64px);
-	width: calc(100% - 64px);}
-  
-	
+	 	
   }
 
 
@@ -1874,7 +1869,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     opacity: 0;
   }
 
-  .social-list { justify-content: left; }
+  .social-list { justify-content: center; }
 
 
 
