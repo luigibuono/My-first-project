@@ -6,17 +6,20 @@ I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the
 
 > ![favicon start](https://user-images.githubusercontent.com/128727133/234612178-af727cd1-0aa8-4854-ae43-c97c90159cd7.png)
 
-<h3>                                 Access to my portfolio via githuh</h3>                          
+<h3>                                 Access to my portfolio via github</h3>                          
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 <br>
+<h1> OR NETLIFY <h1>
+  <p>NETLIFY LINK:https://s2i-progetto-html-css.netlify.app </p>
+  > ![netlify icon](https://user-images.githubusercontent.com/128727133/234612779-db7e7520-a9e8-458f-b08d-fcdf180c94ce.png)
 
+  
 🔭 I’m currently working on Project HTML AND CSS<br><br><br>🌱 I’m currently learning Javascript<br><br>💬 Ask me about START2IMPACT<br>
 
 > ![screen profile](https://user-images.githubusercontent.com/128727133/234016654-f6ca9fe8-9a2c-4948-b2e1-cbaf36b2bcc1.png)
 
-NETLIFY LINK:https://s2i-progetto-html-css.netlify.app
+
   
-  > ![netlify icon](https://user-images.githubusercontent.com/128727133/234612779-db7e7520-a9e8-458f-b08d-fcdf180c94ce.png)
 
 
 
