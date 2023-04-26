@@ -17,6 +17,7 @@ Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi
 
   
 
+  
 
 <h1 align="center">PROJECT PREVIEW:</h1><br><br><br><br>
 > ![screen profile](https://user-images.githubusercontent.com/128727133/234016654-f6ca9fe8-9a2c-4948-b2e1-cbaf36b2bcc1.png)
@@ -24,6 +25,7 @@ Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi
 
   
 
+  
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/luigi.buono.9250) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/luigi.buono_/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/luigi-buono-334b73258/) 
