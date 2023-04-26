@@ -1,16 +1,17 @@
 > <h1 align="center">Hi 👋, I'm Luigi</h1><br><br><br><br>
-<h3 align="center"># 💫 About Me:</h3>
+<h3> align="center"># 💫 About Me:</h3>
 
 <p>
 I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the master to become a full stack development programmer and this is my first project.<p/><br<<br><br>
 
 > ![favicon start](https://user-images.githubusercontent.com/128727133/234612178-af727cd1-0aa8-4854-ae43-c97c90159cd7.png)
 
-<h3>                                 Access to my portfolio via github</h3>                          
+<h1>                                 Access to my portfolio via github</h1>                          
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 <br>
 <h1> OR NETLIFY <h1>
-  <p>NETLIFY LINK:https://s2i-progetto-html-css.netlify.app </p>
+  <p>NETLIFY LINK:https://s2i-progetto-html-css.netlify.app </p><br><br><br><br>
+  
   > ![netlify icon](https://user-images.githubusercontent.com/128727133/234612779-db7e7520-a9e8-458f-b08d-fcdf180c94ce.png)
 
   
