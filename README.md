@@ -31,7 +31,7 @@ Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi
 <p>Ho diviso le cartelle, ordinando il codice js e css nelle opposite cartelle,stessa cosa per le immagini.<br>
 Un portfolio full responsive con varie sezioni e un form finale di contatto,nel file css varie modifiche alle dimensioni dei testi/immagini/caratteri,<br
 e una varietà di caratteri utilizzati.<br>
-Nel file js ho reso interattiva la pagina per potersi spostare da una sezione ad un altra.
+  Nel file js ho reso interattiva la pagina per potersi spostare da una sezione ad un altra.</p>
 
 
 
