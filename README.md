@@ -1,5 +1,8 @@
 > ![favicon start](https://user-images.githubusercontent.com/128727133/234612178-af727cd1-0aa8-4854-ae43-c97c90159cd7.png)
-
+<h1>HI.I'M LUIGI BUONO </h1>
+# 💫 About Me:
+<p>
+I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the master to become a full stack development programmer and this is my first project.<p/><br<<br><br>
 
 
 
