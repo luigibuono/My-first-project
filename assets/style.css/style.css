@@ -332,14 +332,13 @@ main {
 }
 
 .avatar-box {
-width:50%;
-  height: 50%;
+
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
 .img-profile{
-width:10%;
-height:10%;}
+width:70%;
+height:70%;}
 
 .info-content .name {
   color: var(--white-2);
