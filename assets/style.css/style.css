@@ -332,8 +332,8 @@ main {
 }
 
 .avatar-box {
-width: 20%;
-  height: 20%;
+width:1%;
+  height: 1%;
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
