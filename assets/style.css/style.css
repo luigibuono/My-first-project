@@ -290,7 +290,12 @@ article.active {
   border-radius: inherit;
   z-index: -1;
 }
-
+.img-profile{
+	width:50%;
+	height:50%;}
+.img-soft{
+	width:50%;
+	height:50%;}
 
 
 
