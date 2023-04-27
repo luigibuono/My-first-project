@@ -334,11 +334,7 @@ main {
 .avatar-box {
 
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
-}
-.img-profile{
-width:70%;
-height:70%;}
+  border-radius: 20px;}
 
 .info-content .name {
   color: var(--white-2);
