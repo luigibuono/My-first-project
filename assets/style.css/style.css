@@ -332,10 +332,7 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
-.img-profile{
-	width:60%;
-	height:60%;
-}
+
 
 .info-content .name {
   color: var(--white-2);
