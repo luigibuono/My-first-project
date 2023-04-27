@@ -745,7 +745,9 @@ main {
 .clients-item img {
   width: 100%;
   height:100%;
-  border solid:2px,gold;
+  border-style:solid;
+  border-width:2px;
+  border-color:gold;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
