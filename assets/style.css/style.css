@@ -290,14 +290,6 @@ article.active {
   border-radius: inherit;
   z-index: -1;
 }
-.img-profile{
-	width:50%;
-	height:50%;}
-.img-soft{
-	width:50%;
-	height:50%;}
-
-
 
 
 /*-----------------------------------*\
@@ -329,7 +321,6 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
- width:80px;
 }
 
 .avatar-box {
@@ -547,11 +538,6 @@ main {
 
 .service-icon-box { margin-bottom: 10px; }
 
-.service-icon-box img { margin: auto; 
-
-width: 50%;
-height: 50%;
-}
 .service-content-box { text-align: center; }
 
 .service-item-title { margin-bottom: 7px; }
@@ -599,8 +585,7 @@ height: 50%;
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
-	width:40%;
-	height:40%;
+	
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -866,7 +851,7 @@ height: 50%;
 
 .skill-progress-bg {
   background: var(--jet);
-  width: 90%;
+  width: 100%;
   height: 8px;
   border-radius: 10px;
 }
@@ -874,7 +859,6 @@ height: 50%;
 .skill-progress-fill {
   background: var(--text-gradient-yellow);
   height: 100%;
-	width:80%
   border-radius: inherit;
 }
 
@@ -1476,7 +1460,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 120px; }
+  .modal-avatar-box img { width: 65px; }
 
   .modal-img-wrapper > img {
     display: block;
@@ -1563,10 +1547,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
 @media (min-width: 768px) {
-.service-icon-box img { margin: auto; 
 
-width: 100%;
-  height: 100%;}
 
   /**
    * REUSED STYLE
@@ -1667,14 +1648,6 @@ width: 100%;
  */
 
 @media (min-width: 1024px) {
-.service-icon-box img { margin: auto; 
-
-width: 100%;
-  height: 100%;}
-	.img-profile{
-	width:60%;
-	height:60%;
-
   /**
    * CUSTOM PROPERTY
    */
@@ -1789,10 +1762,7 @@ width: 100%;
  */
 
 @media (min-width: 1250px) {
-	.img-profile{
-	width:60%;
-	height:60%;
-
+	
   /**
    * RESET
    */
@@ -1843,12 +1813,6 @@ width: 100%;
     width: 75%;
     margin: 0;
   }
-
-
-.service-icon-box img { margin: auto; 
-
-width: 100%;
-  height: 100%;}
 
   /**
    * SIDEBAR
