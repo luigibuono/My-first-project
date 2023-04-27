@@ -1354,7 +1354,7 @@ width: 100%;
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width:50%; }
 
   .info-content .name { margin-bottom: 15px; }
 
