@@ -1246,10 +1246,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 @media (min-width: 450px) {
 
 
-.service-icon-box img { margin: auto; 
 
-width: 100%;
-  height: 100%;}
   /**
    * client
    */
@@ -1354,7 +1351,7 @@ width: 100%;
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width:50%; }
+  .avatar-box img { width:120px; }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1479,7 +1476,7 @@ width: 100%;
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 200px; }
+  .modal-avatar-box img { width: 120px; }
 
   .modal-img-wrapper > img {
     display: block;
