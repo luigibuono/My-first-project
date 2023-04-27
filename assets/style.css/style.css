@@ -1273,11 +1273,7 @@ width: 100%;
  * responsive larger than 580px screen
  */
 
-@media (min-width: 580px) {
-.service-icon-box img { margin: auto; 
-
-width: 100%;
-  height: 100%;}
+@media (min-width: 580px) 
 
   /**
    * CUSTOM PROPERTY
@@ -1481,7 +1477,7 @@ width: 100%;
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 65px; }
+  .modal-avatar-box img { width: 200px; }
 
   .modal-img-wrapper > img {
     display: block;
