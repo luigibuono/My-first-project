@@ -304,17 +304,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-.img-soft{
-
-
-width: 5%;
-  height: 5%;}
-
-.img-hard{
-
-
-width: 5%;
-  height: 5%;}
 
 /*-----------------------------------*\
   #SIDEBAR
@@ -341,7 +330,12 @@ width: 5%;
 .avatar-box {
 
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;}
+  border-radius: 20px;
+}
+.img-profile{
+	width:40%;
+	height:40%;
+}
 
 .info-content .name {
   color: var(--white-2);
@@ -408,10 +402,7 @@ width: 5%;
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
-
-
-width: 1000%;
-  height: 100%;}
+}
 
 .contact-item {
   min-width: 100%;
@@ -447,8 +438,8 @@ width: 1000%;
   padding-bottom: 4px;
   padding-left: 7px;
 
-width: 100%;
-  height: 100%;}
+}
+
 
 .social-item .social-link {
   color: var(--light-gray-70);
@@ -557,7 +548,8 @@ width: 100%;
 .service-icon-box img { margin: auto; 
 
 width: 50%;
-  height: 50%;}
+height: 50%;
+}
 .service-content-box { text-align: center; }
 
 .service-item-title { margin-bottom: 7px; }
@@ -598,8 +590,6 @@ width: 50%;
 }
 
 .testimonials-avatar-box {
-width: 100%;
-  height: 100%;}
   position: absolute;
   top: 0;
   left: 0;
@@ -607,6 +597,8 @@ width: 100%;
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+	width:40%;
+	height:40%;
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -625,121 +617,7 @@ width: 100%;
 
 
 /**
- * #testimonials-modal
- */
-
-.modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  z-index: 20;
-  pointer-events: none;
-  visibility: hidden;
-}
-
-.modal-container::-webkit-scrollbar { display: none; }
-
-.modal-container.active {
-  pointer-events: all;
-  visibility: visible;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: hsl(0, 0%, 5%);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  z-index: 1;
-  transition: var(--transition-1);
-}
-
-.overlay.active {
-  opacity: 0.8;
-  visibility: visible;
-  pointer-events: all;
-}
-
-.testimonials-modal {
-  background: var(--eerie-black-2);
-  position: relative;
-  padding: 15px;
-  margin: 15px 12px;
-  border: 1px solid var(--jet);
-  border-radius: 14px;
-  box-shadow: var(--shadow-5);
-  transform: scale(1.2);
-  opacity: 0;
-  transition: var(--transition-1);
-  z-index: 2;
-}
-
-.modal-container.active .testimonials-modal {
-  transform: scale(1);
-  opacity: 1;
-}
-
-.modal-close-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: var(--onyx);
-  border-radius: 8px;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--white-2);
-  font-size: 18px;
-  opacity: 0.7;
-}
-
-.modal-close-btn:hover,
-.modal-close-btn:focus { opacity: 1; }
-
-.modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
-
-.modal-avatar-box {
-  background: var(--bg-gradient-onyx);
-  width: max-content;
-  border-radius: 14px;
-  margin-bottom: 15px;
-  box-shadow: var(--shadow-2);
-}
-
-.modal-img-wrapper > img { display: none; }
-
-.modal-title { margin-bottom: 4px; }
-
-.modal-content time {
-  font-size: var(--fs-6);
-  color: var(--light-gray-70);
-  font-weight: var(--fw-300);
-  margin-bottom: 10px;
-}
-
-.modal-content p {
-  color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-  line-height: 1.6;
-}
-
-
-/**
- * #clients 
+ * #sources 
  */
 
 .clients { margin-bottom: 15px; }
@@ -765,7 +643,8 @@ width: 100%;
 }
 
 .clients-item img {
-  width: 100%;
+  width: 40%;
+  height:40%
   filter: grayscale(1);
   transition: var(--transition-1);
 }
@@ -872,7 +751,7 @@ width: 100%;
 
 .skill-progress-bg {
   background: var(--jet);
-  width: 100%;
+  width: 90%;
   height: 8px;
   border-radius: 10px;
 }
@@ -880,6 +759,7 @@ width: 100%;
 .skill-progress-fill {
   background: var(--text-gradient-yellow);
   height: 100%;
+	width:80%
   border-radius: inherit;
 }
 
@@ -971,8 +851,8 @@ width: 100%;
 
 .project-img {
   position: relative;
-  width: 100%;
-  height: 200px;
+  width: 40%;
+  height: 40%;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -1083,8 +963,8 @@ width: 100%;
 }
 
 .blog-banner-box img {
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  height: 40%;
   object-fit: cover;
   transition: var(--transition-1);
 }
