@@ -1288,7 +1288,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 340px;
+    width: 360px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1375,7 +1375,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar { border-radius: 20px 20px 0 0; }
 
-  .navbar-list { gap: 20px; }
+  .navbar-list { gap: 40px; }
 
   .navbar-link { --fs-8: 14px; }
 
