@@ -1288,7 +1288,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 200px;
+    width: 340px;
     margin-inline: auto;
     padding: 30px;
   }
