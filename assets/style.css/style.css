@@ -299,7 +299,7 @@ article.active {
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
-  min-width: 259px;
+  min-width: 759px;
 }
 
 /*-----------------------------------*\
@@ -1317,7 +1317,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 100px;
   }
 
