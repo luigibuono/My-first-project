@@ -12,7 +12,7 @@ I'm Luigi, I'm 22 and I'm a student of Start2Impact University, I'm studying the
 Link to my project:https://luigibuono.github.io/Progetto-S2I-HTML-e-CSS-di-Luigi-Buono/ <br>
 <br>
 <h1> OR NETLIFY <h1>
-  <p>NETLIFY LINK:https://s2i-progetto-html-css.netlify.app </p><br><br><br><br>
+  <p>NETLIFY LINK:https://responsiveportfolioluigibuono.netlify.app/ </p><br><br><br><br>
   
   > ![netlify icon](https://user-images.githubusercontent.com/128727133/234612779-db7e7520-a9e8-458f-b08d-fcdf180c94ce.png)
 
