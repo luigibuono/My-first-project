@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  
+  <link rel="shortcut icon" href="./assets/images/favicon.port.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/style.css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta property="og:site_name" content="Personal website">
+            <meta property="og:title" content="link facebook"/>
+            <meta property="og:description" content="facebook my profile "/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="https://www.facebook.com/luigi.buono.9250/"/>
+  
+            <meta property="og:title" content="link linkedin"/>
+            <meta property="og:description" content="Linkedin my profile "/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="https://www.linkedin.com/in/luigi-buono-334b73258/"/>
+  
+            
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets/images/profilo (1).png" alt="Luigi Buono">
+        </figure>
+
+        <div class="info-content">
+          
+          <h1 class="name" title="Luigi Buono">Luigi Buono</h1>
+
+          <p class="title">Full-Stack Developer</p>
+        </div>
+        
+                
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/luigi.buono.9250" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/luigi-buono-334b73258/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:luigibuono1611@gmail.com" class="contact-link">luigibuono1611@gmail.com</a>
+            
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+39" class="contact-link">+3493618997</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">November 16, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ischia, Naples ITALY</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        
+
+      
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I graduated from a computer technical institute in my country. I've always been a programming enthusiast, and at the moment I'm engaged in the full-stack development master's degree, made available by the startup Start2Impact University. Through youtube, seeing many videos of this startup, I found the motivation to start this new path, a speech on youtube that struck me a lot was: "Not having talents was my talent" by Gian Luca Comandini.
+          </p>
+
+          <p>
+            In my free time I like to follow many sports, especially football, and doing physical activity helps me to be more productive in my studies and work. I like to put effort into everything I do, and I would like to learn many different programming languages.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/soft skills icon (1).png"
+                 alt="Soft skills icon" >
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Soft Skills</h4>
+
+                <p class="service-item-text">
+                  -Creativity<br>
+                  -Precision<br>
+                  -Flexibility<br>
+                  -Ability to work in a team<br>
+                  -Problem solving skills<br>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/hard skill one.jpg" alt="Hard Skills icon">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hard Skills</h4>
+
+                <p class="service-item-text">
+                  -Conoscenza pacchetto Microsoft Office:intermedia<br>
+                  -Conoscenza HTML e CSS:avanzata<br>
+                  -Conoscenza Java Script:intermedia<br>
+                  -Conoscenza Bootstrap:intermedia<br>
+                  -Conoscenza lingua inglese:intermedia<br>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/mobile app pro.png" alt="mobile app icon" >
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Aspiring developer of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/web developer pro.png" alt="web developer icon">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web developer</h4>
+
+                <p class="service-item-text">
+                  Developer of modern and dynamic websites.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - test
+        -->
+
+        <section class="test">
+
+          <h3 class="h3 testimonials-title">Test</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/html e css image (1).png" alt="HTML and CSS" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HTML and CSS</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    HTML formatting language <br>
+CSS defines the style of the page
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/logo bootstrap (1).png" alt="Bootstrap" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Bootstrap</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Powerful front-end framework for faster and easier web development
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/logo sass (1).jpg" alt="SASS" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sass</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Sass is the world's most mature, stable, and powerful professional-grade CSS extension language.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/js icon (1).png" alt="Java Script" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Java Script </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Javascript scripting language to make your website dynamic
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+        
+
+
+  
+        <!--
+          sources
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Sources</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="assets/images/mdn logo pro.jpg" alt="Mdn logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="assets/images/youtube.icon.webp" alt="Youtube Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="assets/images/git icoj pro.png" alt="Github Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="assets/images/google fonts.icon.png" alt="Google-fonts Logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer technical institute</h4>
+
+              <span>2014 — 2019</span>
+
+              <p class="timeline-text">
+                Basis della programming, competence in the field of hardware and software
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CCNA Cisco,Cybersecurity Essentials</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                A password is like a toothbrush. You shouldn't share it with anyone.
+                Protect your technology, your identity and everything in between.
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Oracle,Java foundation</h4>
+
+              <span>2018-2019</span>
+
+              <p class="timeline-text">
+                Everything you need to know about Java.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                student of the start2impact start-up
+                masters: full-stack development
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">delicatessen seller</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Preparation of the counter with cured meats and cheeses, sale of typical products, wines, champagnes, everything to do.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">lifeguard</h4>
+
+              <span>2015 — 2018</span>
+
+              <p class="timeline-text">
+                my first summer job, during my school years.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sass</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill";"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/screen profile pro.png" alt="HTML and CSS" >
+                </figure>
+
+                <h3 class="project-title">HTML AND CSS S2I</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2023-04-22 190842.png" alt="Contatore" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">JavaScript Basics S2I</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Screenshot 2023-04-22 191602.png" alt="Corso JavaScript" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-27">March,27 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">JavaScript course Edoardo midali</h3>
+
+                  <p class="blog-text">
+                   From a variable, an array, a class, passing through the functions, until you get to the web API
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Screenshot 2023-04-22 191754.png" alt="Course HTML & CSS from start2Impact" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-20">March 20, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Course HTML & CSS from start2Impact</h3>
+
+                  <p class="blog-text">
+                    All basic Html tags,
+formatting tags, Forms,
+images, links, lists,
+tables, styles, meta information.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Screenshot 2023-04-22 192317.png" alt="RankingCoachSeo" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-23">March 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">RankingCoachSeo</h3>
+
+                  <p class="blog-text">
+                    DIY SEO! Optimize your site independently with simple video tutorials.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Screenshot 2023-04-22 192216.png" alt="S2I speech" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-03">March,3, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">S2I speech</h3>
+
+                  <p class="blog-text">
+                    Experiences told
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24184.064558893562!2d13.948468599999998!3d40.73984795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b6ac8f882fc3d%3A0xa5bacd4571de1115!2sPorto%20d&#39;Ischia!5e0!3m2!1sit!2sit!4v1682186847457!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Warning, this form is deactivated, you can use my linkedin link to contact me.</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/script.js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+          
+                  
